@@ -33,7 +33,13 @@ A collection of experiments and scripts using Google AI Studio and Google’s ge
 5. **Set API key from Google AI (Gemini):**
    
    ```bash
-   export GOOGLE_API_KEY="your_api_key_here"
+   setx GOOGLE_API_KEY "your_api_key_here"
+   ```
+   
+   To verify:
+   
+   ```bash
+   echo %GOOGLE_API_KEY%
    ```
 
 6. **Test your setup:**
